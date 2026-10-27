@@ -1,0 +1,29 @@
+# Contexto de build mínimo: solo el código de la librería y sus pruebas.
+
+# Control de versiones y metadatos del repositorio
+.git
+.gitignore
+.dockerignore
+
+# Artefactos de compilación de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Entornos virtuales y cachés de herramientas
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Cobertura, registros y dependencias de otros ecosistemas
+.coverage
+htmlcov/
+*.log
+node_modules/
+
+# Configuración local, nunca versionada
+.env

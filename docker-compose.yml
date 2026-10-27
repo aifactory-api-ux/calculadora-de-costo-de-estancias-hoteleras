@@ -1,0 +1,11 @@
+# Orquestación local de la librería hotel-booking.
+#
+# El servicio `booking-tests` construye la imagen definida en el `Dockerfile` de
+# la raíz y ejecuta la suite de pruebas. No publica puertos ni monta volúmenes:
+# el proyecto es una librería sin servidor, de modo que el contenedor solo
+# ejecuta las pruebas y termina con el código de salida de pytest.
+
+services:
+  booking-tests:
+    build: .
+    command: pytest -q tests/test_booking.py

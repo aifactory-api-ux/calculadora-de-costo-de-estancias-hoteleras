@@ -1,0 +1,33 @@
+{
+  "enums": {},
+  "exports": {
+    "Dockerfile": [
+      "CMD pytest -q tests/test_booking.py"
+    ],
+    ".dockerignore": [],
+    "docker-compose.yml": [
+      "services.booking-tests"
+    ],
+    "run.sh": [
+      "run.sh"
+    ],
+    "pyproject.toml": [
+      "hotel-booking",
+      "booking"
+    ],
+    "tests/test_booking.py": [
+      "TestNights",
+      "TestNightsErroresDeOrden",
+      "TestNightsErroresDeTipo",
+      "TestNightlyRate",
+      "TestNightlyRateErrores",
+      "TestStayTotal",
+      "TestStayTotalDescuento",
+      "TestStayTotalErroresDeFechas",
+      "TestStayTotalErroresDeHabitacion",
+      "TestStayTotalErroresDeHuespedes"
+    ],
+    "README.md": [],
+    "openspec/changes/initial-delivery/tasks.md": []
+  }
+}

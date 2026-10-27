@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: hotel-booking
+Version: 0.1.0
+Summary: Calculo de costos de estadias hoteleras (noches, tarifas, recargos, tasa turistica y descuentos)
+Requires-Python: >=3.9
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
